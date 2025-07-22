@@ -74,7 +74,7 @@ I’m currently building and documenting my own cybersecurity lab using tools li
 
 ## 🔗 Connect With Me
 
-- [LinkedIn](https://www.linkedin.com/in/YOURUSERNAME)
+- [LinkedIn]([https://www.linkedin.com/in/YOURUSERNAME](https://www.linkedin.com/in/angelo-figueroa-Jr-534974307/))
 - [GitHub](https://github.com/AngeloFig)
 
 Thanks for visiting!
