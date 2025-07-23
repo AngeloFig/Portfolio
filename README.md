@@ -56,7 +56,7 @@ Welcome! This is a showcase of hands-on cybersecurity labs I’ve completed thro
 ## 📄 Resume & Certifications
 
 - 🎓 **B.S. in Computer Science**
-- 📜 [Download Resume (PDF)](Angelo_Figueroa_Jr_Resume.pdf)
+- 📜 [Download Resume (PDF)](./Angelo_Figueroa_Resume.pdf)
 - ✅ Google Cybersecurity Certificate
 - ✅ TestOut Security Pro
 - ✅ Security+
