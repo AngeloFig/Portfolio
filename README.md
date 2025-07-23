@@ -1,6 +1,9 @@
 # 🛡️ Angelo Figueroa Jr's Portfolio
 
-Welcome! This is a showcase of hands-on cybersecurity labs I’ve completed through the **TestOut Security Pro** certification, Google Cybersecurity Certificate, and my ongoing home lab development. These labs demonstrate real-world skills across several domains of cybersecurity.
+Welcome! This is a showcase of hands-on cybersecurity and IT labs I’ve completed through the **TestOut Security Pro** certification, **Google Cybersecurity Certificate**, and my ongoing **home lab development**. These labs demonstrate real-world skills across several domains, including cybersecurity, system administration, and IT support.
+
+Whether I’m pursuing roles in cybersecurity or beginning in IT/help desk to build experience, this portfolio reflects my commitment to technical excellence, security best practices, and continuous learning.
+
 
 ---
 
