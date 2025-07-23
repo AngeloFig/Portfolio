@@ -11,9 +11,9 @@ This project combines four key Windows security labs that focus on protecting en
 
 **🧠 Why it matters:** EFS helps secure files on shared systems without full-disk encryption.
 
-**📸 Screenshots:**
-- File encryption applied to folder and subfiles  
-- Certificate-based access granted to another user  
+**📸 Screenshots:**  
+![Folder encryption](efs-folder-encryption.png)  
+![Add user to EFS](efs-add-user-certificate.png)
 
 ---
 
@@ -25,9 +25,9 @@ This project combines four key Windows security labs that focus on protecting en
 
 **🧠 Why it matters:** BitLocker protects lost or stolen drives from unauthorized access, even if removed from the machine.
 
-**📸 Screenshots:**
-- TPM enabled in BIOS  
-- BitLocker encryption completed and verified  
+**📸 Screenshots:**  
+![TPM enabled in BIOS](bitlocker-enable-tpm.png)  
+![BitLocker encryption complete](bitlocker-complete.png)
 
 ---
 
@@ -38,9 +38,9 @@ This project combines four key Windows security labs that focus on protecting en
 
 **🧠 Why it matters:** Keeping systems updated reduces vulnerability windows and improves stability.
 
-**📸 Screenshots:**
-- Windows Update advanced settings configured  
-- Device installation settings set to auto-download  
+**📸 Screenshots:**  
+![Update settings configured](windows-updates-defer.png)  
+![Device installation set to auto](device-installation-settings.png)
 
 ---
 
@@ -54,9 +54,10 @@ This project combines four key Windows security labs that focus on protecting en
 
 **🧠 Why it matters:** This limits exposure while traveling or using public Wi-Fi, a common source of attacks.
 
-**📸 Screenshots:**
-- Public network firewall profile enabled  
-- App firewall rules scoped to the correct network  
+**📸 Screenshots:**  
+![Firewall status before enabling](firewall-network-status.png)  
+![Firewall enabled for public network](firewall-public-enabled.png)  
+![Firewall allowed app rules](firewall-allowed-apps.png)
 
 ---
 
@@ -74,4 +75,3 @@ This project combines four key Windows security labs that focus on protecting en
 - SOC Analyst / Jr. Cybersecurity Technician  
 - System Administrator (Entry-Level)  
 - Desktop Support Analyst  
-
