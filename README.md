@@ -59,7 +59,7 @@ Welcome! This is a showcase of hands-on cybersecurity labs I’ve completed thro
 - 📜 [Download Resume (PDF)](LINK_TO_YOUR_RESUME)
 - ✅ Google Cybersecurity Certificate
 - ✅ TestOut Security Pro
-- 📝 [Security+ (Pending - Exam: July 22, 2025)]
+- ✅ Security+
 
 ---
 
