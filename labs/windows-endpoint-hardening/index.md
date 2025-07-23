@@ -1,107 +1,77 @@
-🔐 Windows Endpoint Hardening and Encryption
-(A grouped showcase of 4 TestOut labs)
+# 🖥️ Windows Endpoint Hardening & Encryption
 
-📁 Labs Covered:
-3.4.3 Encrypt Files with EFS
+This project combines four key Windows security labs that focus on protecting endpoints through encryption, patch management, and firewall configuration. These are essential skills for both IT support and cybersecurity roles.
 
-3.4.8 Configure BitLocker with TPM
+---
 
-8.1.5 Configure Automatic Updates
+## 🔐 Encrypt Files with EFS
+- Encrypted the `D:\Finances` folder and all contents using **EFS** (Encrypting File System)
+- Prevented unauthorized access to sensitive files on a shared workstation
+- Added another user (John) to the encryption certificate for `2023report.xlsx`
 
-8.1.7 Configure Microsoft Defender Firewall
+**🧠 Why it matters:** EFS helps secure files on shared systems without full-disk encryption.
 
-🧪 Overview
-This project demonstrates practical techniques to harden Windows endpoints using built-in security tools. Tasks include file encryption, full disk encryption, patch management, and firewall configuration — core responsibilities for both IT and cybersecurity professionals.
+**📸 Screenshots:**
+- File encryption applied to folder and subfiles  
+- Certificate-based access granted to another user  
 
-🔐 1. Encrypt Files with EFS
-To protect sensitive data shared on a multi-user system, I encrypted the D:\Finances folder using Encrypting File System (EFS). Additionally, I authorized another user (John) by attaching their certificate to a specific file.
+---
 
-🧭 Scenario:
-You share a computer at work. You want to secure the contents of the Finances folder and allow John access to one file.
+## 💽 Configure BitLocker with TPM
+- Enabled **TPM security** from BIOS settings
+- Encrypted the entire `C:` drive using **BitLocker**
+- Saved recovery key to network share: `\\CorpServer\BU-Office1`
+- Used the **new encryption mode** and ran a system check
 
-✅ Key Steps:
-Enabled encryption via File Properties → Advanced → “Encrypt contents to secure data”
+**🧠 Why it matters:** BitLocker protects lost or stolen drives from unauthorized access, even if removed from the machine.
 
-Selected “Apply to this folder, subfolders, and files”
+**📸 Screenshots:**
+- TPM enabled in BIOS  
+- BitLocker encryption completed and verified  
 
-Added John’s certificate to 2023report.xlsx via file-level access control
+---
 
-📸 Screenshots:
+## 🔄 Configure Automatic Updates
+- Enabled updates for **Microsoft products**
+- Deferred **feature updates** by 60 days and **quality updates** by 30 days
+- Enabled automatic downloads for drivers and custom device icons
 
+**🧠 Why it matters:** Keeping systems updated reduces vulnerability windows and improves stability.
 
-💽 2. Configure BitLocker with TPM
-I enabled BitLocker full disk encryption on the C: drive using TPM security. This ensures data is protected at rest, even if the hard drive is removed and accessed externally.
+**📸 Screenshots:**
+- Windows Update advanced settings configured  
+- Device installation settings set to auto-download  
 
-🧭 Scenario:
-An employee is working on a sensitive project. If their PC is stolen, confidential data must remain inaccessible.
+---
 
-✅ Key Steps:
-Enabled TPM in BIOS and activated it
+## 🔥 Configure Microsoft Defender Firewall
+- Turned on the **Public network firewall profile**
+- Allowed only necessary apps to communicate over public networks:
+  - **Key Management Service**
+  - **Arch98**
+  - **Apconf**
+- Scoped firewall exceptions to **Public** profile only
 
-Initiated BitLocker from Control Panel
+**🧠 Why it matters:** This limits exposure while traveling or using public Wi-Fi, a common source of attacks.
 
-Saved the recovery key to a shared network folder (\\CorpServer\BU-Office1)
+**📸 Screenshots:**
+- Public network firewall profile enabled  
+- App firewall rules scoped to the correct network  
 
-Chose full drive encryption with modern encryption mode
+---
 
-Ran a system check to validate setup
+## ✅ Skills Demonstrated
+- Windows file- and disk-level encryption
+- Patch management and update deferral policies
+- Network-based application control
+- Firewall rule configuration
+- BIOS-level hardware security setup
 
-📸 Screenshots:
+---
 
+## 🧠 Applicable Job Roles
+- Help Desk / IT Support Technician  
+- SOC Analyst / Jr. Cybersecurity Technician  
+- System Administrator (Entry-Level)  
+- Desktop Support Analyst  
 
-🔄 3. Configure Automatic Updates
-I customized Windows Update settings to ensure secure, controlled system updates — essential for minimizing vulnerability exposure.
-
-✅ Key Settings:
-Receive updates for other Microsoft products
-
-Defer feature updates for 60 days
-
-Defer quality/security updates for 30 days
-
-Enabled automatic driver and icon updates for hardware
-
-📸 Screenshots:
-
-
-🔥 4. Configure Microsoft Defender Firewall
-I enabled Windows Defender Firewall for public networks and configured application-level rules to allow specific apps through only the public profile.
-
-🧭 Scenario:
-You're traveling with your laptop and want protection on public Wi-Fi while allowing approved apps to work.
-
-✅ Key Steps:
-Enabled firewall for Domain, Private, and Public profiles
-
-Allowed:
-
-Key Management Service
-
-Arch98
-
-Apconf
-
-Scoped each app to Public network only
-
-📸 Screenshots:
-
-
-💡 Skills Demonstrated
-Endpoint hardening
-
-Encryption configuration (EFS, BitLocker)
-
-Secure update policies
-
-Windows Firewall rule management
-
-BIOS security configuration
-
-🧠 Real-World Relevance
-These tasks are commonly performed by:
-
-Help Desk / IT Support for securing workstations
-
-SOC Analysts / Cybersecurity Technicians as part of endpoint defense
-
-Sysadmins for enforcing GPOs or hardening baseline images
