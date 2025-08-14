@@ -59,7 +59,7 @@ Whether I’m pursuing roles in cybersecurity or beginning in IT/help desk to bu
 ## 📄 Resume & Certifications
 
 - 🎓 **B.S. in Computer Science**
-- 📜 [Download Resume (PDF)](./Angelo_Figueroa_Resume.pdf)
+- 📜 [Download Resume (PDF)](./Angelo_Figueroa_Resume(s).pdf)
 - ✅ Google Cybersecurity Certificate
 - ✅ TestOut Security Pro
 - ✅ Security+
